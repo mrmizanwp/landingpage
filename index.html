@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+        <!-- Video popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+  </head>
+  <body>
+   <header class="header">
+    <div class="container">
+      <div class="landing">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src="./Untitled-1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Workshop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+              
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">:</button>
+            </form>
+          </div>
+        </nav>    
+        <div class="main">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="text">
+                <h4>WE ARE THE CREATIVE</h4>
+                <h1>MARKETING AGENCY</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <button  class="btn btn-primary">SEE MORE</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="img">
+                <img src="./profile.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>   
+        <div class="shape">
+         <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <img src=".//mmm.png" alt="">
+            </div>
+          </div>
+        </div>
+         </div>
+         <div class="social">
+          <ul>
+            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-facebook-messenger"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+         </div>
+         <div class="hhh">
+          <h3>Supercharge <br>
+            Your Business <br>
+            with Us!</h3>
+         </div>
+      
+      </div>
+      
+      
+    </div>
+   </header>
+
+    <script src="js/jquery.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <script>
+             $('.').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                navText: ['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
+                dots: false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
+            })
+               
+      </script>
+         <script>
+          jQuery(document).ready(function($) {
+              $('.counter').counterUp({
+                  delay: 10,
+                  time: 1000
+              });
+          });
+      </script>
+      <script>
+        $('.header-slider').owlCarousel({
+           loop:true,
+           margin:10,
+           nav:false,
+           dots: false,
+           responsive:{
+               0:{
+                   items:1
+               },
+               600:{
+                   items:1
+               },
+               1000:{
+                   items:1
+               }
+           }
+       })
+          
+ </script>
+ <script>
+  $('.popular').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+ </script>
+  </body>
+</html>

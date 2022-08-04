@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+.font-family-one{
+    font-family: 'Kaushan Script', cursive;
+}
+h1 h2 h3 h4 h5 h6 p a{
+    font-family: 'Montserrat', sans-serif;
+    color:azure;
+}
+.landing{
+background: #222d41;
+  height: 700px;
+  position: relative;
+  z-index: 1;
+}
+.main{
+    height: 700px;
+    color: #fff;
+    
+
+    
+}
+.img{
+    height: 700px;
+   
+}
+.img img{
+    width: 65%;
+    padding-top: 50px;
+    height: 497px;
+    padding-left: 63px;
+}
+.shape{
+    height: 700px;
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.shape img{
+   width: 100%;
+}
+.text{
+    padding-left: 114px;
+    padding-top: 122px;
+}
+.text h4{
+    color: #146a64;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 22%;
+}    
+.navbar-light .navbar-nav .nav-link {
+    margin-left: 40px;
+    font-size: 18px;
+}  
+.navbar-brand img{
+    height: 50px;
+    color: black;
+}  
+.social ul li{
+    list-style: none;
+}
+.social ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.social{
+    position: absolute;
+    content: "";
+    right: 0%;
+    bottom: 0%;
+    height: 38%;
+    width: 9%;
+    z-index: 1;
+}
+.hhh {
+    position: absolute;
+    content: "";
+    right: 0%;
+    bottom: 0%;
+    height: 81%;
+    width: 54%;
+    z-index: 1;
+    color: #fff;
+}
+.text p{
+    font-size: 14px;
+}
+.hhh h3{
+    font-size: 24px;
+}
